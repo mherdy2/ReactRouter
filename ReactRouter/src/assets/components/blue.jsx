@@ -1,8 +1,12 @@
 const Blue = () => {
     return ( 
+        <>
         <div className="blue">
-            <h1>Welcome to my BLUE Page</h1>
+            <h1>People of Pandora</h1>
             </div>
+            <div className="blueTab">
+             </div> 
+              </>     
      );
 }
  

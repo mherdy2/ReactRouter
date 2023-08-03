@@ -1,6 +1,6 @@
 
 * {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: Fantasy;
   margin: 0;
 }
 
@@ -24,7 +24,7 @@ body > div {
   justify-content: space-evenly;
   background-color: rgb(223, 194, 144);
   display: flex;
-  
+  text-decoration: none;  
 }
 
 #main-section {
@@ -55,4 +55,48 @@ body > div {
   background: linear-gradient(to right, violet, indigo, blue, green, yellow, orange, red);
   background-size: 1400% 100%;
   animation: rainbow 2s linear infinite;
+  text-decoration: none;
+}
+.homeBar, .blueBar, .redBar{  
+  text-decoration: none;
+  color: black;
+  font-size: 20px;  
+  margin-right: 10px;
+} 
+  .blueBar{
+color:#055fef
+  }
+  .redBar{
+    color: red;
+  }
+
+.homeBar:hover, .blueBar:hover, .redBar:hover {
+  background-color: rgba(0, 0, 0, 0.5); 
+  color: white; 
+  cursor: pointer; 
+}
+.homeBar, .blueBar, .redBar {
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+.homeTab, .redTab, .blueTab{
+ 
+  background-size:cover;
+  height: 100vh;  
+}
+.homeTab{
+background-image: url(./assets/images/marvel.jpg);
+}
+.redTab {
+  background-image: url(./assets/images/deadpool.jpg); 
+}
+.blueTab {
+  background-image: url(./assets/images/avatar.webp); 
+ }
+#footer {
+  background-color: #f0f0f0;
+  padding: 10px;
+  text-align: center;
+  width: 100%;
+  position: fixed;
+  bottom: 0; 
 }

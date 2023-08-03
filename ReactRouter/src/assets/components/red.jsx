@@ -1,9 +1,12 @@
-
 const Red = () => {
     return ( 
+        <>
         <div className="red">
-            <h1>Welcome to my RED Page</h1>            
+            <h1>DEADPOOL</h1>            
             </div>
+             <div className="redTab">
+             </div> 
+              </>     
     );
 }
  
